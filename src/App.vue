@@ -16,10 +16,14 @@ import FooterComp from './components/footer-comp.vue';
 
 
 #app {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: 'India Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color: #F5B6E1;
 }
 
 nav {

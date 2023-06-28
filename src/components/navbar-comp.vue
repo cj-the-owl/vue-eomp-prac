@@ -10,13 +10,17 @@
                         <router-link class="nav-link active" to="/">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/">About</router-link>
+                        <router-link class="nav-link" to="/about">About</router-link>
                     </li>
+                    <!-- <li class="nav-item">
+                        <router-link class="nav-link" to="/products">Products</router-link>
+                    </li> -->
                     <li class="nav-item dropdown list-unstyled">
-                        <router-link class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/">Menu</router-link>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
                         <ul class="dropdown-menu">
-                            <li><router-link class="dropdown-item" to="/">Admin</router-link></li>
-                            <li><router-link class="dropdown-item" to="/">Products</router-link></li>
+                            <li><router-link class="dropdown-item" to="/admin">Admin</router-link></li>
+                            <li><router-link class="dropdown-item" to="/products">Products</router-link></li>
+                            <li><router-link class="dropdown-item" to="/cart">Cart</router-link></li>
                         </ul> 
                     </li>
                 </ul>
