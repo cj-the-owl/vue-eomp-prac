@@ -26,12 +26,12 @@ export default createStore({
   },
   actions: {
     getProducts: async (context) => {
-      fetch("http://localhost:3000/products")
+      fetch("https://cj-the-owl.github.io/data/db.json")
       .then((res) => res.json())
       .then((products) => context.commit("setProducts", products));
     },
     getProduct: async (context, id) => {
-      fetch("http://localhost:3000/products/" + id)
+      fetch("https://cj-the-owl.github.io/data/db.json/product/" + id)
       .then((res) => res.json())
       .then((product) => context.commit("setProduct", product));
     }
